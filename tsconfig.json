@@ -14,10 +14,12 @@
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
+    "resolveJsonModule": true,
     "baseUrl": "./src",
     "paths": {
       "@services/*": ["./services/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "__tests__"]
 }
